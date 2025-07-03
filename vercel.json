@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_API_URL": "https://backend-data-arch.vercel.app/api",
+    "VITE_GOOGLE_CLIENT_ID": "171081195443-aolu8n7hbd3kb6671m4p2kohkdvmumht.apps.googleusercontent.com"
+  }
+}
