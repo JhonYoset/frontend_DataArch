@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "team": "Team",
+    "announcements": "Announcements",
+    "calendar": "Calendar",
+    "admin": "Admin"
+  },
+  "home": {
+    "title": "Data Arch Labs",
+    "subtitle": "Research Group",
+    "description": "We are a multidisciplinary research group focused on AI, software development, sustainable design, and data science. Our mission is to bridge the gap between technology and architecture, creating innovative solutions for the built environment.",
+    "cta": "Explore Our Work",
+    "stats": {
+      "projects": "Active Projects",
+      "members": "Team Members",
+      "publications": "Publications"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the researchers and innovators behind Data Arch Labs",
+    "viewProfile": "View Profile",
+    "researchAreas": "Research Areas",
+    "contact": "Contact",
+    "projects": "Projects",
+    "publications": "Publications"
+  },
+  "projects": {
+    "title": "Research Projects",
+    "subtitle": "Explore our current and completed research initiatives",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "on-hold": "On Hold"
+    },
+    "teamMembers": "Team Members",
+    "viewProject": "View Project"
+  },
+  "announcements": {
+    "title": "Announcements",
+    "subtitle": "Latest news and updates from our research group",
+    "noAnnouncements": "No announcements available",
+    "readMore": "Read More"
+  },
+  "calendar": {
+    "title": "Upcoming Events",
+    "subtitle": "Stay updated with our meetings, deadlines, and conferences",
+    "noEvents": "No upcoming events",
+    "types": {
+      "meeting": "Meeting",
+      "deadline": "Deadline",
+      "conference": "Conference",
+      "other": "Other"
+    }
+  },
+  "admin": {
+    "title": "Administration",
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "manageTeam": "Manage Team",
+    "manageProjects": "Manage Projects",
+    "manageAnnouncements": "Manage Announcements",
+    "manageEvents": "Manage Events"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "back": "Back"
+  }
+}

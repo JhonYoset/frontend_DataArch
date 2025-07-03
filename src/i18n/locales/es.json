@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "team": "Equipo",
+    "announcements": "Anuncios",
+    "calendar": "Calendario",
+    "admin": "Admin"
+  },
+  "home": {
+    "title": "Data Arch Labs",
+    "subtitle": "Grupo de Investigación",
+    "description": "Somos un grupo de investigación multidisciplinario enfocado en IA, desarrollo de software, diseño sostenible y ciencia de datos. Nuestra misión es cerrar la brecha entre tecnología y arquitectura, creando soluciones innovadoras para el entorno construido.",
+    "cta": "Explora Nuestro Trabajo",
+    "stats": {
+      "projects": "Proyectos Activos",
+      "members": "Miembros del Equipo",
+      "publications": "Publicaciones"
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "subtitle": "Conoce a los investigadores e innovadores detrás de Data Arch Labs",
+    "viewProfile": "Ver Perfil",
+    "researchAreas": "Áreas de Investigación",
+    "contact": "Contacto",
+    "projects": "Proyectos",
+    "publications": "Publicaciones"
+  },
+  "projects": {
+    "title": "Proyectos de Investigación",
+    "subtitle": "Explora nuestras iniciativas de investigación actuales y completadas",
+    "status": {
+      "active": "Activo",
+      "completed": "Completado",
+      "on-hold": "En Pausa"
+    },
+    "teamMembers": "Miembros del Equipo",
+    "viewProject": "Ver Proyecto"
+  },
+  "announcements": {
+    "title": "Anuncios",
+    "subtitle": "Últimas noticias y actualizaciones de nuestro grupo de investigación",
+    "noAnnouncements": "No hay anuncios disponibles",
+    "readMore": "Leer Más"
+  },
+  "calendar": {
+    "title": "Próximos Eventos",
+    "subtitle": "Mantente actualizado con nuestras reuniones, fechas límite y conferencias",
+    "noEvents": "No hay eventos próximos",
+    "types": {
+      "meeting": "Reunión",
+      "deadline": "Fecha Límite",
+      "conference": "Conferencia",
+      "other": "Otro"
+    }
+  },
+  "admin": {
+    "title": "Administración",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "dashboard": "Panel de Control",
+    "manageTeam": "Gestionar Equipo",
+    "manageProjects": "Gestionar Proyectos",
+    "manageAnnouncements": "Gestionar Anuncios",
+    "manageEvents": "Gestionar Eventos"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "back": "Volver"
+  }
+}
