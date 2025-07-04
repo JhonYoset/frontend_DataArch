@@ -90,7 +90,7 @@ const Header: React.FC = () => {
               {loading ? (
                 <div className="flex items-center space-x-2">
                   <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-primary-600"></div>
-                  <span className="text-sm text-gray-600">Cargando...</span>
+                  <span className="text-sm text-gray-600">{t('common.loading')}</span>
                 </div>
               ) : user ? (
                 <div className="flex items-center space-x-3">
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
                         {user.full_name || user.email?.split('@')[0]}
                       </div>
                       <div className="text-xs text-gray-600 capitalize">
-                        {user.role === 'admin' ? 'Administrador' : 'Miembro'}
+                        {user.role === 'admin' ? t('auth.administrator') : t('auth.member')}
                       </div>
                     </div>
                   </div>
@@ -114,7 +114,7 @@ const Header: React.FC = () => {
                       className="flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium bg-primary-600 text-white hover:bg-primary-700 transition-colors"
                     >
                       <Settings className="h-4 w-4" />
-                      <span className="hidden sm:inline">Dashboard</span>
+                      <span className="hidden sm:inline">{t('auth.adminDashboard')}</span>
                     </button>
                   )}
 
@@ -124,7 +124,7 @@ const Header: React.FC = () => {
                     className="flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-red-600 hover:bg-red-50 transition-colors"
                   >
                     <LogOut className="h-4 w-4" />
-                    <span className="hidden sm:inline">Salir</span>
+                    <span className="hidden sm:inline">{t('auth.signOut')}</span>
                   </button>
                 </div>
               ) : (
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
                   className="flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium bg-primary-600 text-white hover:bg-primary-700 transition-colors"
                 >
                   <LogIn className="h-4 w-4" />
-                  <span className="hidden sm:inline">Iniciar Sesión</span>
+                  <span className="hidden sm:inline">{t('auth.signIn')}</span>
                 </button>
               )}
 
@@ -170,7 +170,7 @@ const Header: React.FC = () => {
                 {user && (
                   <div className="border-t border-gray-200 pt-2 mt-2">
                     <div className="px-3 py-2 text-sm text-gray-600">
-                      Conectado como: <span className="font-medium">{user.full_name || user.email}</span>
+                      {t('auth.connectedAs')}: <span className="font-medium">{user.full_name || user.email}</span>
                     </div>
                     
                     {isAdmin && (
@@ -178,7 +178,7 @@ const Header: React.FC = () => {
                         onClick={handleAdminAccess}
                         className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-primary-600 hover:bg-primary-50 transition-colors"
                       >
-                        Dashboard Admin
+                        {t('auth.adminDashboard_mobile')}
                       </button>
                     )}
                     
@@ -186,7 +186,7 @@ const Header: React.FC = () => {
                       onClick={handleSignOut}
                       className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-red-600 hover:bg-red-50 transition-colors"
                     >
-                      Cerrar Sesión
+                      {t('auth.signOut_mobile')}
                     </button>
                   </div>
                 )}
